@@ -1,0 +1,110 @@
+header {
+    margin-top: 0;
+    height: 8em;
+    background: #2c3e50;
+    width: 100%;
+    border-bottom: 9px solid black;
+}
+
+.cap {
+    text-align: center;
+
+}
+body {
+    background: cadetblue;
+    margin: 0;
+}
+
+.hone {
+    display: inline-block;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.image {
+    padding-top: 14px;
+    padding-left: 25px;
+}
+main {
+    background: #0c3e2e;
+}
+.photo {
+    float: left;
+    width: 200px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.main {
+
+    height: 400px;
+    margin-left: 220px;
+}
+.names {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.htwo {
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.about, .call {
+    vertical-align: top;
+    float: left;
+    width: 45%;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-right: 3%;
+}
+p {
+    padding-left: 20px;
+    font-family: Arial;
+    font-weight: normal;
+    color: white;
+}
+footer {
+    border-top: 9px solid black;
+    height: 100px;
+    background-color: #0e213e;
+    text-align: right;
+    padding-right: 20px;
+}
+
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+}
+a {text-decoration: none; /*убираем подчеркивание текста ссылок*/}
+
+nav {
+    display: block;
+    width: 660px;
+    margin: 0 auto 30px;
+}
+.two ul {
+
+    background: #D4E7EE;
+    overflow: hidden;
+    padding: 0;
+}
+.two li {
+    float: left;
+    font-size: 32px;
+}
+.two a {
+    display: block;
+    padding: 1em;
+    border-right: 1px solid #ADC0CE;
+    background: rgba(173, 192, 206, .3);
+    color: #29838C;
+}
+.two a:hover {background: #ADC0CE}
+
