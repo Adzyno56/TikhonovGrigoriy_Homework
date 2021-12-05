@@ -1,0 +1,131 @@
+body {
+    display: grid;
+    background: cadetblue;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    grid-template-rows: 190px 1fr 120px;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    margin: 0;
+}
+main {
+    display: grid;
+    grid-template-areas:
+        "form"
+        "result_que";
+    grid-template-rows: 1fr 100px;
+    grid-area: main;
+    background-color: #59C1A0;
+}
+header {
+    grid-area: header;
+    display: grid;
+    grid-template-areas:
+        "logo nav nav"
+        "logo line aut";
+    grid-template-rows: 110px 80px;
+    grid-template-columns: 200px 1fr 500px;
+    background: #2c3e50;
+    border-bottom: 9px solid black;
+}
+footer {
+    grid-area: footer;
+    background-color: #0e213e;
+    border-top: 9px solid black;
+    text-align: right;
+    padding: 20px;
+}
+.image {
+    grid-area: logo;
+    padding-top: 14px;
+    padding-left: 25px;
+}
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+}
+a {text-decoration: none; /*убираем подчеркивание текста ссылок*/}
+
+nav {
+    display: block;
+    height: 110px;
+    grid-area: nav;
+    padding: 5px;
+
+}
+.line-break {
+    grid-area: line;
+}
+.two ul {
+    margin-top: 25px;
+    margin-left: 10px;
+    background: #D4E7EE;
+    overflow: hidden;
+    padding: 0;
+}
+.two li {
+    float: left;
+    font-size: 20px;
+}
+.two a {
+    display: block;
+    padding: 1em;
+    border-right: 1px solid #ADC0CE;
+    background: rgba(173, 192, 206, .3);
+    color: #29838C;
+}
+.two a:hover {background: #ADC0CE}
+p {
+    padding-left: 20px;
+    font-family: Arial;
+    font-weight: normal;
+    color: white;
+}
+span {
+    padding-top: 5px;
+    padding-left: 20px;
+    font-family: Arial;
+    font-weight: normal;
+    color: white;
+}
+.btn_aut {
+    float: right;
+    height: 50px;
+}
+.aut {
+
+    grid-area: aut;
+    padding-right: 20px
+}
+.form_que {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding-top: 20px;
+    grid-area: form;
+    gap: 1rem;
+}
+.form_container {
+    flex: 1 0 30%;
+    height: 100px;
+
+    text-align: center;
+}
+.form_btn {
+    text-align: center;
+    flex: 1 0 100%;
+}
+.res_btn {
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+}
+.result_que {
+    grid-area: result_que;
+}
+
+
+
